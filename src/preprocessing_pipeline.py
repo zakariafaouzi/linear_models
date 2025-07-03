@@ -18,7 +18,7 @@ class PreProcessing:
         self.contamination = contamination
 
     def drop_nans(self):
-        self.df = self.df.dropna()
+        self.df = self.df.dropna().reset_index(drop=True)
         return self
     
     def detect_outliers_with_isolation_forest(self):
