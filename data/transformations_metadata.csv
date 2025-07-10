@@ -1,0 +1,7 @@
+original_feature,skewness,transformation,final column name
+mean compactness,1.186983323974523,np.sqrt(),tran_mean compactness
+mean fractal dimension,1.3010473927890858,np.sqrt(),tran_mean fractal dimension
+texture error,1.6421002649479612,np.sqrt(),tran_texture error
+smoothness error,2.308344221045982,np.sqrt(),tran_smoothness error
+symmetry error,2.189341838925834,np.sqrt(),tran_symmetry error
+worst symmetry,1.4301448677540645,np.sqrt(),tran_worst symmetry
